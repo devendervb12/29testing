@@ -1,0 +1,111 @@
+{
+  "projectType": [
+    "com.watt.commonbuilder.sapui5clientbuild",
+    "sap.watt.uitools.ide.fiori"
+  ],
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Fri, 12 Jan 2018 01:47:03 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 16 Jan 2018 01:09:51 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 16 Jan 2018 01:13:54 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.replaceviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 17 Jan 2018 01:10:14 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/SAP/GBAPP_POAPPROVAL;mo/",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "basevalidator": {
+    "services": {
+      "xml": "fioriXmlAnalysis",
+      "js": "fioriJsValidator"
+    }
+  },
+  "codeCheckingTriggers": {
+    "notifyBeforePush": true,
+    "notifyBeforePushLevel": "Error",
+    "blockPush": false,
+    "blockPushLevel": "Error"
+  },
+  "extensibility": {
+    "controllers": {
+      "Main": "MM_PO_APV%2fMain.controller.js",
+      "AccountAssignmentTable": "MM_PO_APV%2fview%2fAccountAssignmentTable.controller.js",
+      "ItemServiceLimit": "MM_PO_APV%2fview%2fItemServiceLimit.controller.js",
+      "ItemServiceLine": "MM_PO_APV%2fview%2fItemServiceLine.controller.js",
+      "S2": "MM_PO_APV%2fview%2fS2.controller.js",
+      "S3": "MM_PO_APV%2fview%2fS3.controller.js",
+      "S4": "MM_PO_APV%2fview%2fS4.controller.js"
+    },
+    "views": {
+      "Main": "MM_PO_APV%2fMain.view.xml",
+      "AccountAssignmentTable": "MM_PO_APV%2fview%2fAccountAssignmentTable.view.xml",
+      "ItemServiceLimit": "MM_PO_APV%2fview%2fItemServiceLimit.view.xml",
+      "ItemServiceLine": "MM_PO_APV%2fview%2fItemServiceLine.view.xml",
+      "S2": "MM_PO_APV%2fview%2fS2.view.xml",
+      "S3": "MM_PO_APV%2fview%2fS3.view.xml",
+      "S4": "MM_PO_APV%2fview%2fS4.view.xml"
+    },
+    "fragments": {},
+    "type": "abaprep",
+    "shouldLinkComponentToManifest": false,
+    "component": "MM_PO_APV%2fComponent.js",
+    "configuration": "MM_PO_APV%2fConfiguration.js",
+    "versionJsonPath": "MM_PO_APV%2fversion.json",
+    "system": {
+      "name": "ECC2",
+      "description": "smax",
+      "proxyUrlPrefix": "/destinations/ECC2",
+      "path": "/sap/bc/adt",
+      "url": "/destinations/ECC2/sap/bc/adt",
+      "wattUsage": "dev_abap",
+      "systemId": "SDV",
+      "entryPath": "/sap/bc/adt",
+      "sapClient": "800",
+      "additionalData": []
+    },
+    "discoveryStatus": {
+      "csrfToken": "20iSQoiccP-O0h399k6BNw==",
+      "transports": "/destinations/ECC2/sap/bc/adt/cts/transports",
+      "transportchecks": "/destinations/ECC2/sap/bc/adt/cts/transportchecks",
+      "filestore_ui5_bsp": "/destinations/ECC2/sap/bc/adt/filestore/ui5-bsp/objects",
+      "search": "/destinations/ECC2/sap/bc/adt/repository/informationsystem/search",
+      "ui5_rt_version": "/destinations/ECC2/sap/bc/adt/filestore/ui5-bsp/ui5-rt-version",
+      "description": "smax",
+      "proxyUrlPrefix": "/destinations/ECC2"
+    },
+    "BSPName": "MM_PO_APV",
+    "namespace": "ui.s2p.mm.purchorder.approve",
+    "resourceBundle": "i18n/i18n.properties",
+    "parentResourceRootUrl": "/destinations/ECC2/sap/bc/ui5_ui5/sap/MM_PO_APV"
+  },
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "buildRequired": true
+  }
+}
